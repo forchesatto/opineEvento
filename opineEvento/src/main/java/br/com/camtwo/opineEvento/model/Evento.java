@@ -26,7 +26,7 @@ public class Evento implements Serializable {
 	private Long id;
 	@Column(length=150, nullable=false)
 	private String nome;
-	@Column(length=15, nullable=false)
+	@Column(length=15, nullable=false, unique=true)
 	private String apelido;
 	@Temporal(TemporalType.DATE)
 	private Date dataInicial;

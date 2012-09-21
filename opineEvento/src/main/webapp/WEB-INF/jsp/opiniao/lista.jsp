@@ -7,15 +7,23 @@
 </head>
 <body>
 <body>
+<a href="opine/${apelido}">Nova Opinião</a>
 	<table>
 		<thead>
 			<tr>
+				<th>Data</th>
+				<th>Pessoa</th>
+				<th>Qualidade</th>
 				<th>Opinião</th>
+				
 			</tr>
 		</thead>
 		<tbody>
 			<c:forEach items="${opiniaoList}" var="opiniao">
 				<tr>
+					<td>${opiniao.dataPost}</td>
+					<td>${opiniao.nomePessoa}</td>
+					<td>${opiniao.qualidade.descricao}</td>
 					<td>${opiniao.opiniao}</td>
 				</tr>
 			</c:forEach>
