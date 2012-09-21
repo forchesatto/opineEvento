@@ -52,7 +52,7 @@
 					<div class="control-group">
 						<label class="control-label" for="dataInicial">Data inicial:</label>
 						<div class="controls">
-							<input id="dataInicial" type="date" required placeholder="MM/DD/YYYY" name="evento.dataInicial" pattern="(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}" value="${evento.dataFinal}" maxlength="150" />
+							<input id="dataInicial" type="date" required placeholder="MM/DD/YYYY" name="evento.dataInicial" pattern="(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}" value="${evento.dataInicial}" maxlength="150" />
 
 						</div>
 					</div>
