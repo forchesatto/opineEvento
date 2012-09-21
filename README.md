@@ -1,12 +1,15 @@
-opineEvento
+Opine Evento
 ===========
 
 Projeto utilizado na palestra do II BootCamp Unoesc São Miguel do Oeste
 
-Tecnologias:
+O projeto pode ser importado no eclipse WTP e o gerenciamento de libs é com o mavem.
 
-Vraptor
-Rest
-Spring-Data-JPA
-HTML 5
-CSS
+Tecnologias:
+<ul>
+<li>Vraptor</li>
+<li>Rest</li>
+<li>Spring-Data-JPA</li>
+<li>HTML 5</li>
+<li>CSS</li>
+</ul>
