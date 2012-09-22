@@ -12,4 +12,5 @@ Tecnologias:
 <li>Spring-Data-JPA</li>
 <li>HTML 5</li>
 <li>CSS</li>
+<li>Bootstrap do twitter</li>
 </ul>
